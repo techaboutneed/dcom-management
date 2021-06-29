@@ -15,7 +15,7 @@ DCOM Management is focus on the management of DCOM content which is available in
 
 ### Stylesheet
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/techaboutneed/dcom-management@master/style.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/techaboutneed/dcom-management@latest/style.min.css" />
 ```
 
 ### Javascript
