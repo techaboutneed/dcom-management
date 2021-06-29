@@ -1,0 +1,105 @@
+:root {
+  --available: #4bb534;
+  --wait: rgb(93, 60, 214);
+}
+
+/* Global */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Materials */
+.materials .title {
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  padding: 5px 0px;
+  font-weight: bold;
+}
+
+.materials .material table {
+  border-collapse: collapse;
+  border-width: 2px;
+  border-style: solid;
+  margin: 2px 0px 2px 2px;
+  border-color: darkblue;
+  user-select: none;
+}
+
+.materials .material table thead tr th {
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.materials .material table thead tr th {
+  background-color: rgb(31, 32, 105);
+  color: #fff;
+}
+
+.materials .material table tbody tr:nth-child(2n + 1) {
+  background: rgb(93, 60, 214);
+  color: #fff;
+}
+
+.materials .material table tbody tr:nth-child(2n + 2) {
+  background: rgb(120, 97, 219);
+  color: #fff;
+}
+
+.materials .material table tbody tr td {
+  padding: 5px;
+  text-align: left;
+  vertical-align: middle;
+  max-width: 250px;
+}
+
+.materials .material table tbody tr td.links {
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 100px));
+  gap: 3px;
+}
+
+.materials .material table tbody tr td a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: var(--available);
+  outline: none;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.soonbtn {
+  background-color: rgb(61, 24, 196);
+  color: #fff;
+}
+
+.soon {
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--wait);
+  margin-bottom: 20px;
+  color: #fff;
+  padding: 5px 0px;
+  width: 100%;
+  cursor: default;
+}
+
+@media (max-width: 426px) {
+  .materials .material table {
+    margin: 2px auto;
+  }
+}
