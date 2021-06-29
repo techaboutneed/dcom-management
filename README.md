@@ -21,7 +21,7 @@ DCOM Management is focus on the management of DCOM content which is available in
 ### Javascript
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/techaboutneed/dcom-management@latest/js/main.min.js type="module" async></script>
+<script src="https://cdn.jsdelivr.net/gh/techaboutneed/dcom-management@latest/js/main.min.js" type="module" async></script>
 ```
 
 ---
