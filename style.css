@@ -54,6 +54,7 @@
   text-align: left;
   vertical-align: middle;
   max-width: 250px;
+  border:none;
 }
 
 .materials .material table tbody tr td.links {
