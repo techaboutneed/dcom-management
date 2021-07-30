@@ -25,7 +25,7 @@ urlsegments.forEach((urlParts) => {
 // Get JSON Data Function
 function getJSONData(urlText) {
   // Generate full url path
-  let urlLocation = `https://cdn.jsdelivr.net/gh/techaboutneed/dcom-management@master/json/${urlText}.json`;
+  let urlLocation = `https://cdn.jsdelivr.net/gh/techaboutneed/dcom-management@latest/json/${urlText}.json`;
   // Using fetch api get the JSON Data
   fetch(urlLocation)
     // resolve the response and return the response json
