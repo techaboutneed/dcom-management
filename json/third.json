@@ -1,0 +1,117 @@
+{
+  "syllabus": [
+    {
+      "subject": "Microprocessor",
+      "links": ["1WaG7ZPMtoalRh_wWfLYVSXtSzVSvEOBM"],
+      "text": ["Download"]
+    },
+
+    {
+      "subject": "Data Structure & Algorithms",
+      "links": ["1FDziwobnV6q3b1mWYAMFhJ2ahEo75Wwb"],
+      "text": ["Download"]
+    },
+
+    {
+      "subject": "Electronic Devices & Circuits",
+      "links": ["1oE0-yS3TE1gmWfg7uCzvdOvfufsGwpsn"],
+      "text": ["Download"]
+    },
+
+    {
+      "subject": "Engineering Mathematics III",
+      "links": ["1YlBsfvecdlpvqY_Q74DBlcKqWTM5U-Ly"],
+      "text": ["Download"]
+    },
+
+    {
+      "subject": "Database Management System",
+      "links": ["18YZrw8_mWonH8Aud72y7Y-iSlc4lGpJD"],
+      "text": ["Download"]
+    },
+
+    {
+      "subject": "Web Technology & Programming II",
+      "links": ["1aZAw5AsnEfJ_xa5yKlQW5diIBgtZe6M9"],
+      "text": ["Download"]
+    }
+  ],
+
+  "note": [
+    {
+      "subject": "Microprocessor",
+      "ref": "-",
+      "links": ["1blc-ms0uQYssc9GSGySCXGmlEwz5dNnL"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Data Structure & Algorithms",
+      "ref": "Er.Prakash Poudel",
+      "links": ["1edfIRyFCGx_vJyiyOkKURpzIjnxsGQcf"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Electronic Devices & Circuits",
+      "ref": "Er.Rajiv Aryal",
+      "links": ["1jot0yQWVUdx_OYldFQTQHXaR3Ko07f9Y"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Database Management System (Written)",
+      "ref": "Abdul Haq",
+      "links": ["15OJ6v5Z9XXXTe_O2b6FGYJEe00eTMx_Y"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Database Management System",
+      "ref": "Abdul Haq",
+      "links": ["1Yl2ZlBWvboAJ1K897KeAU9knzUexDE45"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Web Technology & Programming II (Written)",
+      "ref": "Suraj Pandey",
+      "links": ["1C-y4ypS6at2Nnz6gi2Y5VIqvavsOLUVt"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Web Technology & Programming II",
+      "ref": "Suraj Pandey",
+      "links": ["1ZdFn_tGsxax9BFOzzHakv-MXO2Kh_T_4"],
+      "text": ["Download"]
+    }
+  ],
+
+  "paper": [
+    {
+      "subject": "Microprocessor",
+      "links": ["1xNZhlUVZzfO9eWhhMbvlVWGCY304BdI3"],
+      "text": ["2076"]
+    },
+    {
+      "subject": "Data Structure & Algorithms",
+      "links": ["1QEn6hc0xfzAkbbGNr2iMfAVb8L4rjbUs"],
+      "text": ["2076"]
+    },
+    {
+      "subject": "Electronic Devices & Circuits",
+      "links": ["186Kh76pvn1hKJUwz4jEVxA-3LioLXV3a"],
+      "text": ["2076"]
+    },
+    {
+      "subject": "Engineering Mathematics III",
+      "links": ["-I-kIOPPyrfLFmrp1ZIrUoiu2NRrBsOs"],
+      "text": ["2076"]
+    },
+    {
+      "subject": "Database Management System",
+      "links": ["1S0GgT5BuR3RSBlyysSntJKCuJTK715kn"],
+      "text": ["2076"]
+    },
+    {
+      "subject": "Web Technology & Programming II",
+      "links": ["1-2MsxlEuUDrrJfQsqhlTdWMaoCCnh9Gi"],
+      "text": ["2076"]
+    }
+  ]
+}

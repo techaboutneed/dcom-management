@@ -1,0 +1,143 @@
+{
+  "syllabus": [
+    {
+      "subject": "Engineering Physics II",
+      "links": ["1m_59_LY6AG1OJrhB2pRv57hWxt3HBOOV"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Engineering Chemistry II",
+      "links": ["1Jwu3tU5CEuVMEo4j0ozWifXqWXV8JGfd"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Engineering Mathematics II",
+      "links": ["1gEQQWKR2jEfuN7tNgsF62b0S8fqt2xsi"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Digital Logic",
+      "links": ["143Rb7-HZWDiwufoZed2Y_qrwCloFOfce"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Electrical Engineering",
+      "links": ["1xXKgHKLWlAmOuQ-usHHTeBTjLz3PCn4z"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Object Oriented Programming in C++",
+      "links": ["19IXeOmikPxjpcJiocVAPEuRJkcJ51BJO"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Web Technology & Programming I",
+      "links": ["1RhHXWhfpJzt4Dbdo1bn6IDxBsq24CCnY"],
+      "text": ["Download"]
+    }
+  ],
+
+  "note": [
+    {
+      "subject": "Engineering Physics II",
+      "ref": "Sudesh Tiwari",
+      "links": ["11HO5OV7nUSm1LFFaLDbM4fuqL2uk6cJq"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Engineering Chemistry II",
+      "ref": "Arjun Bhandari",
+      "links": ["1XI6NNRy4DxD7s1I6bfkAzJNFUgVNqe5I"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Digital Logic",
+      "ref": "Er.Rajiv Aryal",
+      "links": ["1_qIcHLmiiXqCT3fNOkuLZYJzMoZ4ltF6"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Electrical Engineering",
+      "ref": "Er.Rajiv Aryal & Er.Prakash Poudel",
+      "links": ["175g1BlU5IzBCvjGhFt_LZMiJR2kXqCvv"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Object Oriented Programming in C++",
+      "ref": "Abdul Haq",
+      "links": ["1BAyKeQY7Ebxq32yW1oeqOskQjueCPkpr"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Object Oriented Programming in C++ (Written)",
+      "ref": "Abdul Haq",
+      "links": ["1MK4--i8mbRcU4WgefnzFysgC7VSIkWyf"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Web Technology & Programming I",
+      "ref": "Er.Prakash Poudel",
+      "links": ["1Bw5J3nCxssFPVgkBSqSYbEGU0cKN0O1H"],
+      "text": ["Download"]
+    }
+  ],
+
+  "paper": [
+    {
+      "subject": "Engineering Physics II",
+      "links": [
+        "1J9Gttx44v3K7KuJvH6XWjKElE6NsP-sv",
+        "1VdwwOI5E2vIxcIZy8qsrk9iX7l4IENNH"
+      ],
+      "text": ["2076", "2077"]
+    },
+    {
+      "subject": "Engineering Chemistry II",
+      "links": [
+        "1RgGu4-NOtcZjo_5GGjlaDB3-pi-D9k54",
+        "1lcMPwD17zrv9KgbxiGKrDxz6dwzim-n8"
+      ],
+      "text": ["2076", "2077"]
+    },
+    {
+      "subject": "Engineering Mathematics II",
+      "links": [
+        "17IpKueqc8-BdUYBd4CLjj4oChcNZAp4h",
+        "1Hz2mWcvNVxeqQE5aC5qnSBjDJMLyuI6E"
+      ],
+      "text": ["2076", "2077"]
+    },
+    {
+      "subject": "Digital Logic",
+      "links": [
+        "1AYeOZApT1hgy2jOiQc4dd96a82Dxgtag",
+        "1l3oDGwS1Ao13ZkUykgIwitwVmkqv3p0C"
+      ],
+      "text": ["2076", "2077"]
+    },
+    {
+      "subject": "Electrical Engineering",
+      "links": [
+        "1buGADM_Sp5BkRIdNVpXUH5ZOAXonbt8t",
+        "1zvk81ols0YHGOE9fs0M19n0wCA92J_Gi"
+      ],
+      "text": ["2076", "2077"]
+    },
+    {
+      "subject": "Object Oriented Programming in C++",
+      "links": [
+        "1yDhNScDApH0iGoBEZPms8qvlvM36sdYD",
+        "1_Uym2bAc9dWohGKZ8EQtAXqOgcSX_0pO"
+      ],
+      "text": ["2076", "2077"]
+    },
+    {
+      "subject": "Web Technology & Programming I",
+      "links": [
+        "1BNqxuzlB4-07amnzJzlGyOScSv24MNKW",
+        "1AOwHkEVy5oOIy4d4ajfHztu5GPJNysRY"
+      ],
+      "text": ["2076", "2077"]
+    }
+  ]
+}
