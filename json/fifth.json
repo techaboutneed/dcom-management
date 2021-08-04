@@ -56,6 +56,55 @@
       "text": ["Download"]
     }
   ],
-  "note": "All are worried about Notes, I am also student of 5th semseter. I have to write the note so Notes will be upload in the end of the semester of 2018 batch students.",
+  "note": [
+    {
+      "subject": "Computer Networks",
+      "ref":"",
+      "text":["Coming"]
+    },
+    {
+      "subject": "Management Information System",
+      "ref": "",
+      "text":["Coming"]
+    },
+    {
+      "subject": "Applied Telecommunication",
+      "ref": "",
+      "text":["Coming"]
+    },
+    {
+      "subject": "Distributed Computing",
+      "ref": "",
+      "text":["Coming"]
+    },
+    {
+      "subject": "Operating System",
+      "ref": "",
+      "text":["Coming"]
+    },
+    {
+      "subject": "Cyber Security and Social Ethics",
+      "ref": "",
+      "text":["Coming"]
+    },
+    {
+      "subject":"Elective I",
+      "ref" : ""
+    },
+    {
+      "subject": "i) Java Programming",
+      "links": ["1V6pMDreDZWwX0VJCpWYFS8Xfa073oE9s"],
+      "ref": "Suraj Pandey",
+      "text": ["Download"]
+    },
+    {
+      "subject": "ii) Computer Simulation and Modeling",
+      "text": ["Not Available"]
+    },
+    {
+      "subject": "ii) Geographical Information System",
+      "text": ["Not Available"]
+    }
+  ],
   "paper": []
 }
