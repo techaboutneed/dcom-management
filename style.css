@@ -50,27 +50,19 @@
 }
 
 .materials .material table tbody tr td {
-  padding: 5px;
+  padding: 10px 15px;
   text-align: left;
   vertical-align: middle;
   max-width: 250px;
   border:none;
 }
-
-.materials .material table tbody tr td.links {
-  margin: 0;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 100px));
-  gap: 3px;
-}
-
 .materials .material table tbody tr td a {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   cursor: pointer;
+  margin: 2px;
 }
 
 .btn {
