@@ -80,57 +80,64 @@
       "subject": "Communication Nepali",
       "links": [
         "14uUmVQPklMrxc9nvWni44n0yU0nndNUe",
-        "1ws-sWI2sKkAp7IgOgAFTkvOtw1I2zy4n"
+        "1ws-sWI2sKkAp7IgOgAFTkvOtw1I2zy4n",
+        "1fGMvn10YHEtU37kNp7zENA0MVz9GxmLh"
       ],
-      "text": ["2075", "2076"]
+      "text": ["2075", "2076","2078"]
     },
     {
       "subject": "Communication English",
       "links": [
         "1qYn9THdll0kuLk5mr5ZCd1RfkoiPy-RO",
-        "15XGHLDvJK_AlQ-yltW_Y7RPk4ubhobhi"
+        "15XGHLDvJK_AlQ-yltW_Y7RPk4ubhobhi",
+        "1yi3kf3ArJ7WyP8OiAp0BdgCO0Mag92b_"
       ],
-      "text": ["2075", "2076"]
+      "text": ["2075", "2076","2078"]
     },
     {
       "subject": "Engineering Physics I",
       "links": [
         "1aCjsBmFJZpWliQSrSZzAcUgiwq_pOHLL",
-        "1DsmMxw6WbhpC-ht2iFRTcvaE5ld6vU2q"
+        "1DsmMxw6WbhpC-ht2iFRTcvaE5ld6vU2q",
+        "1ZfA6NzrnkI5OIFDC4vJtUyIEOM5W9h_t"
       ],
-      "text": ["2075", "2076"]
+      "text": ["2075", "2076","2078"]
     },
     {
       "subject": "Engineering Chemistry I",
       "links": [
         "1JMvXwFt9LRMpAb7CejhReKWf2Ikgwz1R",
-        "1AJmr7DnS3GU0WuMoR1hZAvsYafKx4P-v"
+        "1AJmr7DnS3GU0WuMoR1hZAvsYafKx4P-v",
+        "1rI7DH0TORjjJbWQpO1msC1w9idk_5b2G"
       ],
-      "text": ["2075", "2076"]
+      "text": ["2075", "2076","2078"]
     },
     {
       "subject": "Engineering Mathematics I",
       "links": [
         "1GWLnAZjsvtrZD29C-xDStqbL_n-ukhps",
-        "1UvX8GlkOId4yMRDY5HU7A8m4pXB5YcEN"
+        "1UvX8GlkOId4yMRDY5HU7A8m4pXB5YcEN",
+        "1p1_eu7-_Rae4C5Zzko-ox1ChZuxo78SP"
       ],
-      "text": ["2075", "2076"]
+      "text": ["2075", "2076","2078"]
     },
     {
       "subject": "Computer Fundamentals",
       "links": [
         "1OOEBl6cDh38YfFhGBpnks602aO3fGq6C",
-        "1Vgv8uYOJ638A-9cmuu9KrXATVRzTkTEd"
+        "1Vgv8uYOJ638A-9cmuu9KrXATVRzTkTEd",
+        "1Fe8J5CH6a7IsJgiuT9hxQ3dTqeOmwaEZ"
       ],
-      "text": ["2075", "2076"]
+      "text": ["2075", "2076","2078"]
     },
     {
       "subject": "Computer Programming in C",
       "links": [
         "1X9nSpNRlzkWV2jsq-VcAr-MGkLLEVV9f",
-        "1GxHCKQJgkTXoObICuiHnpcvJbgJK-t4J"
+        "1GxHCKQJgkTXoObICuiHnpcvJbgJK-t4J",
+        "1nZaIJbW-8i2p6iJVgv3czeKvavU349FC"
       ],
-      "text": ["2075", "2076"]
+      "text": ["2075", "2076","2078"]
     }
   ]
 }
