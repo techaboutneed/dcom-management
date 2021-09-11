@@ -1,6 +1,5 @@
 {
-  "syllabus": [
-    {
+  "syllabus": [{
       "subject": "Computer Networks",
       "links": ["15X9BrusFftyi7DD2qECx438odABbvpXt"],
       "text": ["Download"]
@@ -56,43 +55,43 @@
       "text": ["Download"]
     }
   ],
-  "note": [
-    {
+  "note": [{
       "subject": "Computer Networks",
-      "ref":"",
-      "text":["Coming"]
+      "links": ["1l4vu_hMzoyR-4w4ovagrFXG1GXN_qCdI"],
+      "ref": "Er.Prakash Paudel",
+      "text": ["Download"]
     },
     {
       "subject": "Management Information System",
       "links": ["1FCgBikBpJ2IhKtug6r__ubMjIVpKVIh7"],
       "ref": "Abdul Haq",
-      "text":["Download"]
+      "text": ["Download"]
     },
     {
       "subject": "Applied Telecommunication",
       "ref": "",
-      "text":["Coming"]
+      "text": ["Coming"]
     },
     {
       "subject": "Distributed Computing",
-      "links":["1OEZ7HvOAhZ4mRL4711f5GVfl9mPEgDwK"],
+      "links": ["1OEZ7HvOAhZ4mRL4711f5GVfl9mPEgDwK"],
       "ref": "Er. Prakash Poudel",
-      "text":["Download"]
+      "text": ["Download"]
     },
     {
       "subject": "Operating System",
       "ref": "",
-      "text":["Coming"]
+      "text": ["Coming"]
     },
     {
       "subject": "Cyber Security and Social Ethics",
       "links": ["1I9pTOYtGNeVpFfUOF_aDtPx-iOsSFyna"],
       "ref": "Suraj Pandey",
-      "text":["Download"]
+      "text": ["Download"]
     },
     {
-      "subject":"Elective I",
-      "ref" : ""
+      "subject": "Elective I",
+      "ref": ""
     },
     {
       "subject": "i) Java Programming",
