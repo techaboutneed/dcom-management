@@ -122,6 +122,31 @@
 			"subject": "Management Information System",
 			"links": ["1tw0KMGvLYt12yyzqb82Mi2Xiavj8RshH"],
 			"text": ["2078"]
+		},
+		{
+			"subject": "Distributed Computing",
+			"links": ["1ywBIgmEqZxbDGAl2SrWCUOlkmo0Ap7oc"],
+			"text": ["2078"]
+		},
+		{
+			"subject": "Applied Telecommunication",
+			"links": ["1sTy9BgVTkS0VhGdxQ725Q2wYcHPg74EZ"],
+			"text": ["2078"]
+		},
+		{
+			"subject": "Operating System",
+			"links": ["1-Vz9CATPFummXO0rBGQ9UiPOMnaDTvYI"],
+			"text": ["2078"]
+		},
+		{
+			"subject": "Cyber Security and Social Ethics",
+			"links": ["1yC-UwMhDR0IHdCcHNHt-vpSPuAsiex7l"],
+			"text": ["2078"]
+		},
+		{
+			"subject": "Java Programming",
+			"links": ["16KO4EUxnK8aMT2KRUKiaHpOcrrByD4T3"],
+			"text": ["2078"]
 		}
 	]
 }
