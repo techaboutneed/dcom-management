@@ -46,6 +46,52 @@
       "text": ["Download"]
     }
   ],
-  "note": "Notes will be upload in the end of the semester of 2018 batch students.",
+  "note": [
+    {
+      "subject": "Multimedia Technology",
+      "ref": "Abdul Haq",
+      "links": ["1PMlZaZ-vcfw98PQy5ia-ulbbrj-Ar-TX"],
+      "text": ["Download"]
+    },
+    {
+      "subject": "Internet Technology",
+      "ref": "",
+      "text": ["Comming Soon"]
+    },
+    {
+      "subject": "Data Mining",
+      "ref": "",
+      "text": ["Comming Soon"]
+    },
+    {
+      "subject": "Software Engineering",
+      "ref": "",
+      "text": ["Comming Soon"]
+    },
+    {
+      "subject": "Major Project",
+      "ref": "",
+      "text": ["Comming Soon"]
+    },
+    {
+      "subject": "Elective II",
+      "ref": ""
+    },
+    {
+      "subject": "i) E-Governance",
+      "ref": "",
+      "text": ["Not Available"]
+    },
+    {
+      "subject": "ii) E-Commerce",
+      "ref": "",
+      "text": ["Comming Soon"]
+    },
+    {
+      "subject": "ii) Embedded System",
+      "ref": "",
+      "text": ["Not Available"]
+    }
+  ],
   "paper": []
 }
