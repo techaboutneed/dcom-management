@@ -55,8 +55,9 @@
     },
     {
       "subject": "Internet Technology",
-      "ref": "",
-      "text": ["Comming Soon"]
+      "ref": "Er. Prakash Poudel",
+      "links": ["184hvuoXOin2sDfDijw-bPOftaau6jBmS"],
+      "text": ["Download"]
     },
     {
       "subject": "Data Mining",
@@ -65,13 +66,9 @@
     },
     {
       "subject": "Software Engineering",
-      "ref": "",
-      "text": ["Comming Soon"]
-    },
-    {
-      "subject": "Major Project",
-      "ref": "",
-      "text": ["Comming Soon"]
+      "ref": "Suraj Pandey",
+      "links": ["1SQsxxXlXkA4TK1Hglhv3cUperr2h1m9g"],
+      "text": ["Download"]
     },
     {
       "subject": "Elective II",
