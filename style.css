@@ -12,10 +12,13 @@
 
 /* Materials */
 .materials .title {
-  text-align: center;
   background-color: darkblue;
-  color: white;
   padding: 5px 0px;
+}
+
+.title h2 {
+  text-align: center;
+  color: white;
   font-weight: bold;
 }
 
@@ -54,7 +57,7 @@
   text-align: left;
   vertical-align: middle;
   max-width: 250px;
-  border:none;
+  border: none;
 }
 .materials .material table tbody tr td a {
   display: flex;
