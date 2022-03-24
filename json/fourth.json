@@ -2,7 +2,7 @@
   "syllabus": [
     {
       "subject": "Computer Architecture",
-      "ref": null,
+
       "files": [
         {
           "link": "1M86nQmyV7n2ykkRolmvbzcfoiBjLi_h9",
@@ -12,7 +12,7 @@
     },
     {
       "subject": "Computer Graphics",
-      "ref": null,
+
       "files": [
         {
           "link": "1HiHP5F66oFDJZv0udTNCr57-y_JPZH98",
@@ -22,7 +22,7 @@
     },
     {
       "subject": "Computer Repair & Maintenance",
-      "ref": null,
+
       "files": [
         {
           "link": "1--P2uek0qsLalAoU1D2rggSAWNvIw1O1",
@@ -32,7 +32,7 @@
     },
     {
       "subject": "Data Communication",
-      "ref": null,
+
       "files": [
         {
           "link": "15UlIdWv_3WMM6hVZxLp32LSLzIYY0riT",
@@ -42,7 +42,7 @@
     },
     {
       "subject": "Statistics & Probability",
-      "ref": null,
+
       "files": [
         {
           "link": "1X5eHDDNXbaPMDHlaObMJp7CtTBJbDP7B",
@@ -52,7 +52,7 @@
     },
     {
       "subject": "System Analysis &amp; Design",
-      "ref": null,
+
       "files": [
         {
           "link": "1_K6BG15CBded8vNXmjXEQyifvXN4emVz",
@@ -62,7 +62,7 @@
     },
     {
       "subject": "Visual Programming",
-      "ref": null,
+
       "files": [
         {
           "link": "1VBQjSQZC_Q1SHLXXdrORlGYyZUZvl3xq",
@@ -148,7 +148,7 @@
   "paper": [
     {
       "subject": "Computer Architecture",
-      "ref": null,
+
       "files": [
         {
           "link": "1yH_4E0sff9ovss_WipTgGZaru26gzQ0R",
@@ -158,7 +158,7 @@
     },
     {
       "subject": "Computer Graphics",
-      "ref": null,
+
       "files": [
         {
           "link": "14ORxKWaW1RaRD8JxiuIl2cdx9MlYFzf4",
@@ -168,7 +168,7 @@
     },
     {
       "subject": "Computer Repair & Maintenance",
-      "ref": null,
+
       "files": [
         {
           "link": "1kEFa0HJnnZlbKmdgFvGqEEPgiYxp6Cxy",
@@ -178,7 +178,7 @@
     },
     {
       "subject": "Data Communication",
-      "ref": null,
+
       "files": [
         {
           "link": "1juz-ZyExnsb4mELxmCbQ1CQk0qsZ4R5r",
@@ -188,7 +188,7 @@
     },
     {
       "subject": "Statistics & Probability",
-      "ref": null,
+
       "files": [
         {
           "link": "1ORLJzszdioVdNI_k7z-tFcJukw4toLiZ",
@@ -198,7 +198,7 @@
     },
     {
       "subject": "System Analysis & Design",
-      "ref": null,
+
       "files": [
         {
           "link": "1hJI2BXs7FRw5CjMXimZ6xLd2c76qrOTY",
@@ -208,7 +208,7 @@
     },
     {
       "subject": "Visual Programming",
-      "ref": null,
+
       "files": [
         {
           "link": "1zJBkXFYghld_5rhgUdUuRTPrBqZryhZq",

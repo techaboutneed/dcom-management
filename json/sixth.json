@@ -2,7 +2,7 @@
   "syllabus": [
     {
       "subject": "Multimedia Technology",
-      "ref": null,
+
       "files": [
         {
           "link": "1X6tJ56MkRgVwlHdToc4oDL9B0oea9QHt",
@@ -12,7 +12,7 @@
     },
     {
       "subject": "Internet Technology",
-      "ref": null,
+
       "files": [
         {
           "link": "1OpEc3PUncvx9eXn8-hrOVIG-fUmlvYin",
@@ -22,7 +22,7 @@
     },
     {
       "subject": "Data Mining",
-      "ref": null,
+
       "files": [
         {
           "link": "1YH66LYWD8OgnAMEThDNxtCM5LP-AhTrD",
@@ -32,7 +32,7 @@
     },
     {
       "subject": "Software Engineering",
-      "ref": null,
+
       "files": [
         {
           "link": "1eeQ6LbmRI2QHzLz-Lqy2gcPq0XzXqB9F",
@@ -42,7 +42,7 @@
     },
     {
       "subject": "Major Project",
-      "ref": null,
+
       "files": [
         {
           "link": "1P7ZoG5Z4n0TeDF7YNCfegwOGkmOYpX_y",
@@ -52,12 +52,12 @@
     },
     {
       "subject": "Elective II",
-      "ref": null,
+
       "files": []
     },
     {
       "subject": "i) E-Governance",
-      "ref": null,
+
       "files": [
         {
           "link": "1rRqXQDPCwC2THaRVWcy8O0mTsyKnW3mD",
@@ -67,7 +67,7 @@
     },
     {
       "subject": "ii) E-Commerce",
-      "ref": null,
+
       "files": [
         {
           "link": "1glaUh_u6CobAthmSKqE5S-JcrP2PAl4Z",
@@ -77,7 +77,7 @@
     },
     {
       "subject": "ii) Embedded System",
-      "ref": null,
+
       "files": [
         {
           "link": "14DPUgYkBl5Q0LZFMCxs9IvMEx-Zcu3x1",

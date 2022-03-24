@@ -2,7 +2,7 @@
   "syllabus": [
     {
       "subject": "Microprocessor",
-      "ref": null,
+
       "files": [
         {
           "link": "1WaG7ZPMtoalRh_wWfLYVSXtSzVSvEOBM",
@@ -12,7 +12,7 @@
     },
     {
       "subject": "Data Structure & Algorithms",
-      "ref": null,
+
       "files": [
         {
           "link": "1FDziwobnV6q3b1mWYAMFhJ2ahEo75Wwb",
@@ -22,7 +22,7 @@
     },
     {
       "subject": "Electronic Devices & Circuits",
-      "ref": null,
+
       "files": [
         {
           "link": "1oE0-yS3TE1gmWfg7uCzvdOvfufsGwpsn",
@@ -32,7 +32,7 @@
     },
     {
       "subject": "Engineering Mathematics III",
-      "ref": null,
+
       "files": [
         {
           "link": "1YlBsfvecdlpvqY_Q74DBlcKqWTM5U-Ly",
@@ -42,7 +42,7 @@
     },
     {
       "subject": "Database Management System",
-      "ref": null,
+
       "files": [
         {
           "link": "18YZrw8_mWonH8Aud72y7Y-iSlc4lGpJD",
@@ -52,7 +52,7 @@
     },
     {
       "subject": "Web Technology & Programming II",
-      "ref": null,
+
       "files": [
         {
           "link": "1aZAw5AsnEfJ_xa5yKlQW5diIBgtZe6M9",
@@ -138,7 +138,7 @@
   "paper": [
     {
       "subject": "Microprocessor",
-      "ref": null,
+
       "files": [
         {
           "link": "1xNZhlUVZzfO9eWhhMbvlVWGCY304BdI3",
@@ -152,7 +152,7 @@
     },
     {
       "subject": "Data Structure & Algorithms",
-      "ref": null,
+
       "files": [
         {
           "link": "1QEn6hc0xfzAkbbGNr2iMfAVb8L4rjbUs",
@@ -166,7 +166,7 @@
     },
     {
       "subject": "Electronic Devices & Circuits",
-      "ref": null,
+
       "files": [
         {
           "link": "186Kh76pvn1hKJUwz4jEVxA-3LioLXV3a",
@@ -180,7 +180,7 @@
     },
     {
       "subject": "Engineering Mathematics III",
-      "ref": null,
+
       "files": [
         {
           "link": "1-I-kIOPPyrfLFmrp1ZIrUoiu2NRrBsOs",
@@ -194,7 +194,7 @@
     },
     {
       "subject": "Database Management System",
-      "ref": null,
+
       "files": [
         {
           "link": "1S0GgT5BuR3RSBlyysSntJKCuJTK715kn",
@@ -208,7 +208,7 @@
     },
     {
       "subject": "Web Technology & Programming II",
-      "ref": null,
+
       "files": [
         {
           "link": "1-2MsxlEuUDrrJfQsqhlTdWMaoCCnh9Gi",
