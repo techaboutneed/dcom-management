@@ -60,7 +60,7 @@ class rowGenerator {
     divElement.innerText = message
 
     // remove the table
-    tableParentElement.children[0].remove()
+    tableParentElement.children[1].remove()
 
     // append message instead of table
     tableParentElement.appendChild(divElement)
