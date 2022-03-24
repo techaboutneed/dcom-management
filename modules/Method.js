@@ -1,94 +1,86 @@
+const DIRECT_DOWNLOAD_LINK = 'https://drive.google.com/uc?export=download&id='
+
 class rowGenerator {
   // rowMaker Object Constructor
-  constructor({ subject, ref = "-", links = [], text = [] }) {
-    this.subject = subject;
-    this.ref = ref;
-    this.links = links;
-    this.text = text;
+  constructor({ subject, ref, files = null }) {
+    this.subject = subject
+    this.ref = ref ?? '-'
+    this.files = files
   }
 
   //   table row generate function
   rowDivGenerator(tableName) {
-    // declare variable linkDiv which contains single or multilinks
-    let linkDiv = "";
+    const subjectElement = document.createElement('td')
+    const refElement = document.createElement('td')
+    const linksElement = document.createElement('td')
+    const rowElement = document.createElement('tr')
+    const tableBodyElement = document.getElementById(`${tableName}Body`)
 
-    // check the links is more than 1
-    if (this.links.length > 1) {
-      // iterate links
-      this.links.forEach((linkHref, index) => {
-        // check the text is more than 1
-        if (this.text.length > 1) {
-          linkDiv += this.linkTagCreator(linkHref, index);
-        } else {
-          linkDiv += this.linkTagCreator(linkHref);
+    subjectElement.innerText = this.subject
+    rowElement.append(subjectElement)
+
+    if (tableName === 'note') {
+      refElement.innerText = this.ref
+      rowElement.append(refElement)
+    }
+
+    if (this.files == null) rowElement.append(linksElement)
+
+    if (this.files) {
+      this.files.map((file) => {
+        const linkElement = document.createElement('a')
+        linkElement.classList.add('btn')
+
+        if (file.link == null) {
+          linkElement.href = '#'
+          linkElement.classList.add('soonbtn')
         }
-      });
-    } else if (this.links.length == 1) {
-      linkDiv += this.linkTagCreator(this.links[0]);
-    } else {
-      if (this.text.length !== 0) linkDiv += this.linkTagCreator();
+
+        if (file.link) linkElement.href = `${DIRECT_DOWNLOAD_LINK}${file.link}`
+
+        linkElement.innerText = file.text ?? 'Coming Soon'
+
+        linksElement.append(linkElement)
+      })
     }
 
-    // Check whether to show ref column or not
-    let columnRef = "";
+    rowElement.append(linksElement)
 
-    // note table only contains ref
-    if (tableName == "note") {
-      columnRef = `<td>${this.ref}</td>`;
-    }
-
-    // table column create
-    let tableColumnHtml = `<tr>
-                        <td>${this.subject}</td>
-                        ${columnRef}
-                        <td class="links"> ${linkDiv}</td>
-                      </tr>`;
-    // Select the table body
-    let tableBodySelect = document.getElementById(`${tableName}Body`);
-
-    // append tableColumnHtml in table
-    tableBodySelect.innerHTML += tableColumnHtml;
+    tableBodyElement.append(rowElement)
   }
 
-  linkTagCreator(linkHref = "", index = 0) {
-    // declare prelink which is use to generate link
-    const preLink = "https://drive.google.com/uc?export=download&id=";
-    if (linkHref === "") linkHref = "#";
-    if (linkHref !== "" && linkHref != "#") linkHref = preLink + linkHref;
-    return `<a href="${linkHref}" class="${
-      linkHref !== "" && linkHref != "#" ? `btn` : `btn soonbtn`
-    }" rel="nofollow" ${linkHref !== "" && linkHref != "#" ? "download" : ""}>${
-      this.text[index]
-    }</a>`;
-  }
-
-  static messageShow(tableName, message = "Coming soon") {
+  static messageShow(tableName, message = 'Coming soon') {
     // Select the table parent
-    let tableBodySelect = document.getElementById(`${tableName}Body`).parentNode
-      .parentNode;
+    const tableParentElement = document.getElementById(`${tableName}Body`)
+      .parentNode.parentNode
+
+    const divElement = document.createElement('div')
+
+    divElement.className = 'soon'
+    divElement.innerText = message
+
+    // remove the table
+    tableParentElement.children[0].remove()
+
     // append message instead of table
-    tableBodySelect.innerHTML = `<div class="soon">${message}</div>`;
+    tableParentElement.appendChild(divElement)
   }
 }
 
 // commonClass with item and tableName
 function dataManage(items, tableName) {
   // Checking the item is an Array
-  if (Array.isArray(items)) {
-    // Checking item is not empty
-    if (items.length != 0) {
-      // iterate the items
-      for (let item of items) {
-        // define new rowMaker Obj
-        let itemObj = new rowGenerator(item);
-        // calling the trMaker prototype function
-        itemObj.rowDivGenerator(tableName);
-      }
-    } else {
-      rowGenerator.messageShow(tableName);
-    }
-  } else {
-    rowGenerator.messageShow(tableName, items);
+  if (!Array.isArray(items)) return rowGenerator.messageShow(tableName, items)
+
+  // Checking item is not empty
+  if (items.length == 0) return rowGenerator.messageShow(tableName)
+
+  // iterate the items
+  for (let item of items) {
+    // define new rowMaker Obj
+    let itemObj = new rowGenerator(item)
+    // calling the trMaker prototype function
+    itemObj.rowDivGenerator(tableName)
   }
 }
-export default dataManage;
+export default dataManage

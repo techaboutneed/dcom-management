@@ -2,38 +2,73 @@
   "syllabus": [
     {
       "subject": "Computer Architecture",
-      "links": ["1M86nQmyV7n2ykkRolmvbzcfoiBjLi_h9"],
-      "text": ["Download"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1M86nQmyV7n2ykkRolmvbzcfoiBjLi_h9",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "Computer Graphics",
-      "links": ["1HiHP5F66oFDJZv0udTNCr57-y_JPZH98"],
-      "text": ["Download"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1HiHP5F66oFDJZv0udTNCr57-y_JPZH98",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "Computer Repair & Maintenance",
-      "links": ["1--P2uek0qsLalAoU1D2rggSAWNvIw1O1"],
-      "text": ["Download"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1--P2uek0qsLalAoU1D2rggSAWNvIw1O1",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "Data Communication",
-      "links": ["15UlIdWv_3WMM6hVZxLp32LSLzIYY0riT"],
-      "text": ["Download"]
+      "ref": null,
+      "files": [
+        {
+          "link": "15UlIdWv_3WMM6hVZxLp32LSLzIYY0riT",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "Statistics & Probability",
-      "links": ["1X5eHDDNXbaPMDHlaObMJp7CtTBJbDP7B"],
-      "text": ["Download"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1X5eHDDNXbaPMDHlaObMJp7CtTBJbDP7B",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "System Analysis &amp; Design",
-      "links": ["1_K6BG15CBded8vNXmjXEQyifvXN4emVz"],
-      "text": ["Download"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1_K6BG15CBded8vNXmjXEQyifvXN4emVz",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "Visual Programming",
-      "links": ["1VBQjSQZC_Q1SHLXXdrORlGYyZUZvl3xq"],
-      "text": ["Download"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1VBQjSQZC_Q1SHLXXdrORlGYyZUZvl3xq",
+          "text": "Download"
+        }
+      ]
     }
   ],
 
@@ -41,82 +76,145 @@
     {
       "subject": "Computer Architecture",
       "ref": "Sanjeev Thapa",
-      "links": ["1-NthPOycX8IQ4bMbYYVtJpw2z1z1tw9-"],
-      "text": ["Download"]
+      "files": [
+        {
+          "link": "1-NthPOycX8IQ4bMbYYVtJpw2z1z1tw9-",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "Computer Graphics",
       "ref": "Er. Prakash Poudel",
-      "links": ["10bgw1t6a3eX9rxqjCW0QQbvhJ2jQxjjG"],
-      "text": ["Download"]
+      "files": [
+        {
+          "link": "10bgw1t6a3eX9rxqjCW0QQbvhJ2jQxjjG",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "Computer Repair & Maintenance",
       "ref": "Kamal Bhandari",
-      "links": ["11JCiBjDrvG8Rv36Uzn-pjw7CN8zJlKO3"],
-      "text": ["Download"]
+      "files": [
+        {
+          "link": "11JCiBjDrvG8Rv36Uzn-pjw7CN8zJlKO3",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "Data Communication",
       "ref": "Er.Rajiv Aryal",
-      "links": ["116pl7BsjeovhB_1xK2884upm_7Yqd0kQ"],
-      "text": ["Download"]
+      "files": [
+        {
+          "link": "116pl7BsjeovhB_1xK2884upm_7Yqd0kQ",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "System Analysis & Design",
       "ref": "Suraj Pandey",
-      "links": ["11Aj57O7IoiPYSya23Oi4c_O0YCsxJVNZ"],
-      "text": ["Download"]
+      "files": [
+        {
+          "link": "11Aj57O7IoiPYSya23Oi4c_O0YCsxJVNZ",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "System Analysis & Design (Written)",
       "ref": "Suraj Pandey",
-      "links": ["12T4rmFr4y6TVU-_ULUVziARkqqyFwE02"],
-      "text": ["Download"]
+      "files": [
+        {
+          "link": "12T4rmFr4y6TVU-_ULUVziARkqqyFwE02",
+          "text": "Download"
+        }
+      ]
     },
     {
       "subject": "Visual Programming",
       "ref": "Abdul Haq",
-      "links": ["1hYr95Nypm37FpiiyLsiMayEJtgxzQHCW"],
-      "text": ["Download"]
+      "files": [
+        {
+          "link": "1hYr95Nypm37FpiiyLsiMayEJtgxzQHCW",
+          "text": "Download"
+        }
+      ]
     }
   ],
 
   "paper": [
     {
       "subject": "Computer Architecture",
-      "links": ["1yH_4E0sff9ovss_WipTgGZaru26gzQ0R"],
-      "text": ["2077"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1yH_4E0sff9ovss_WipTgGZaru26gzQ0R",
+          "text": "2077"
+        }
+      ]
     },
     {
       "subject": "Computer Graphics",
-      "links": ["14ORxKWaW1RaRD8JxiuIl2cdx9MlYFzf4"],
-      "text": ["2077"]
+      "ref": null,
+      "files": [
+        {
+          "link": "14ORxKWaW1RaRD8JxiuIl2cdx9MlYFzf4",
+          "text": "2077"
+        }
+      ]
     },
     {
       "subject": "Computer Repair & Maintenance",
-      "links": ["1kEFa0HJnnZlbKmdgFvGqEEPgiYxp6Cxy"],
-      "text": ["2077"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1kEFa0HJnnZlbKmdgFvGqEEPgiYxp6Cxy",
+          "text": "2077"
+        }
+      ]
     },
     {
       "subject": "Data Communication",
-      "links": ["1juz-ZyExnsb4mELxmCbQ1CQk0qsZ4R5r"],
-      "text": ["2077"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1juz-ZyExnsb4mELxmCbQ1CQk0qsZ4R5r",
+          "text": "2077"
+        }
+      ]
     },
     {
       "subject": "Statistics & Probability",
-      "links": ["1ORLJzszdioVdNI_k7z-tFcJukw4toLiZ"],
-      "text": ["2077"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1ORLJzszdioVdNI_k7z-tFcJukw4toLiZ",
+          "text": "2077"
+        }
+      ]
     },
     {
       "subject": "System Analysis & Design",
-      "links": ["1hJI2BXs7FRw5CjMXimZ6xLd2c76qrOTY"],
-      "text": ["2077"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1hJI2BXs7FRw5CjMXimZ6xLd2c76qrOTY",
+          "text": "2077"
+        }
+      ]
     },
     {
       "subject": "Visual Programming",
-      "links": ["1zJBkXFYghld_5rhgUdUuRTPrBqZryhZq"],
-      "text": ["2077"]
+      "ref": null,
+      "files": [
+        {
+          "link": "1zJBkXFYghld_5rhgUdUuRTPrBqZryhZq",
+          "text": "2077"
+        }
+      ]
     }
   ]
 }
