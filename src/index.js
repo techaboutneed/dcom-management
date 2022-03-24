@@ -1,5 +1,5 @@
 // import Module files
-import dataManage from '../modules/Method.js'
+import dataManage from './modules/Method.js'
 
 // variable init
 let urlText

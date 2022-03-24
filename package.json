@@ -1,0 +1,24 @@
+{
+  "name": "dcom-management",
+  "version": "1.0.0",
+  "description": "DCOM Management is focus on the management of DCOM content which is available in [Tech About Need](https://www.techaboutneed.com/2019/09/diploma-in-computer-engineering-notes.html). This repository has the content of notes, paper and syllabus link of diploma in computer engineering.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techaboutneed/dcom-management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techaboutneed/dcom-management/issues"
+  },
+  "homepage": "https://github.com/techaboutneed/dcom-management#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
