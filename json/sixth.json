@@ -76,7 +76,7 @@
       ]
     },
     {
-      "subject": "ii) Embedded System",
+      "subject": "iii) Embedded System",
 
       "files": [
         {
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "subject": "ii) Embedded System",
+      "subject": "iii) Embedded System",
       "ref": "By Someone",
       "files": [
         {
@@ -163,5 +163,73 @@
       ]
     }
   ],
-  "paper": []
+  "paper": [
+    {
+      "subject": "Data Mining",
+      "files": [
+        {
+          "link": "1-CFRtyxxhVPi8hpUFS3WcFeCrNZmzCz3",
+          "text": "2078"
+        }
+      ]
+    },
+    {
+      "subject": "Internet Technology",
+      "files": [
+        {
+          "link": "1-D19mHOmF9N_I9ujsyPE5ieuVCVKqd7H",
+          "text": "2078"
+        }
+      ]
+    },
+    {
+      "subject": "Multimedia Technology",
+      "files": [
+        {
+          "link": "1RtH4StNlAPGM_OIuvRt8qwYLmiTtyvt1",
+          "text": "2078"
+        }
+      ]
+    },
+    {
+      "subject": "Software Engineering",
+      "files": [
+        {
+          "link": "1SKWaaO18TanJQj8yTFLh_DctBkTvNZZn",
+          "text": "2078"
+        }
+      ]
+    },
+    {
+      "subject": "Elective II",
+      "files": null
+    },
+    {
+      "subject": "i) E-Commerce",
+      "files": [
+        {
+          "link": "1ee1shtGd_d-64iyjGk5v6ucPNekryo2K",
+          "text": "2078"
+        }
+      ]
+    },
+    {
+      "subject": "ii) E-Governance",
+      "files": [
+        {
+          "link": null,
+          "text": "Not Available"
+        }
+      ]
+    },
+    {
+      "subject": "iii) Embedded System",
+      "files": [
+        {
+          "link": null,
+          "text": "Not Available"
+        }
+      ]
+    }
+  ]
 }
