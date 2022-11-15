@@ -167,8 +167,8 @@ export default {
 					text: '2077/2078',
 				},
 				{
-					link: null,
-					text: 'Soon',
+					link: '1uxZUtcdvZ_rvw_pV8w5UGJ3Oufqt2J7m',
+					text: '2079',
 				},
 			],
 		},
@@ -221,8 +221,8 @@ export default {
 					text: '2077/2078',
 				},
 				{
-					link: null,
-					text: 'Soon',
+					link: '12YkM0utob-AoLsstdcapZ5gEXxy9H8b8',
+					text: '2079',
 				},
 			],
 		},
