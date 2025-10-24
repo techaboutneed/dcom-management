@@ -1,14 +1,8 @@
 async function loadSemesterData() {
   try {
-    console.log("Working on semester file");
-    // Get the page path
-    const websiteURL = new URL(location.href);
-    const urlPath = websiteURL.pathname.split("/").filter(Boolean).pop(); // splitting url segments
+    const semester = getSemester();
 
-    if (urlPath == undefined) throw new Error("unable to process URL");
-
-    const firstSegment = urlPath.split(".").at(0); // split into . to remove extension and get first element
-    const semester = firstSegment?.split("-").at(0); // split the section segment to get specific word by splitting using -
+    if (semester == undefined) throw new Error("unable to get semester");
 
     const semesterFile = await import(`./datas/${semester}.js`).then(
       (data) => data.default
@@ -21,3 +15,15 @@ async function loadSemesterData() {
 }
 
 loadSemesterData();
+
+function getSemester() {
+  const websiteURL = new URL(location.href);
+  const urlPath = websiteURL.pathname.split("/").filter(Boolean).pop(); // splitting url segments
+
+  if (urlPath == undefined) throw new Error("unable to process URL");
+
+  const firstSegment = urlPath.split(".").at(0); // split into . to remove extension and get first element
+  const semester = firstSegment?.split("-").at(0); // split the section segment to get specific word by splitting using "-"
+
+  return semester;
+}
