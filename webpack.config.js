@@ -1,26 +1,41 @@
 const path = require("path");
 
-config = {
-  entry: "./src/index.ts",
+/** @type {import('webpack').Configuration} */
+
+module.exports = {
   mode: "production",
+  entry: { app: "./src/index.ts" },
+  output: {
+    path: path.resolve(__dirname, "build"),
+    clean: true,
+    publicPath: "auto",
+    filename: "main.js",
+    chunkFilename: "chunks/[name].[contenthash].js",
+  },
+  resolve: {
+    extensions: [".ts", ".tsx", ".js", ".jsx", ".json"],
+  },
   module: {
     rules: [
-      // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
-      { test: /\.tsx?$/, loader: "ts-loader" },
-      // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-      { test: /\.js$/, loader: "source-map-loader" },
+      {
+        test: /\.tsx?$/,
+        loader: "ts-loader",
+        options: {
+          transpileOnly: true,
+        },
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.json$/i,
+        type: "json",
+        parser: { parse: JSON.parse },
+      },
     ],
   },
-  // Enable sourcemaps for debugging webpack's output.
-  devtool: "source-map",
-  resolve: {
-    // Add '.ts' and '.tsx' as resolvable extensions.
-    extensions: ["", ".webpack.js", ".web.js", ".ts", ".tsx", ".js"],
-  },
-  output: {
-    filename: "main.js",
-    path: path.resolve(__dirname, "./build"),
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
+    runtimeChunk: false,
   },
 };
-
-module.exports = config;
