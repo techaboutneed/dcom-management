@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "allowJs": true,
+    "target": "es5",
+    "lib": ["ES2022", "dom"],
+    "module": "esnext"
+  },
+  "include": ["./src/**/*"]
+}
