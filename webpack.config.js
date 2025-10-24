@@ -1,23 +1,26 @@
-const path = require('path')
+const path = require("path");
 
 config = {
-	entry: './src/index.js',
-	mode: 'production',
-	module: {
-		rules: [
-			{
-				test: /\.js$/,
-				exclude: /node_modules/,
-			},
-		],
-	},
-	resolve: {
-		extensions: ['.js'],
-	},
-	output: {
-		filename: 'main.js',
-		path: path.resolve(__dirname, './build'),
-	},
-}
+  entry: "./src/index.ts",
+  mode: "production",
+  module: {
+    rules: [
+      // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
+      { test: /\.tsx?$/, loader: "ts-loader" },
+      // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
+      { test: /\.js$/, loader: "source-map-loader" },
+    ],
+  },
+  // Enable sourcemaps for debugging webpack's output.
+  devtool: "source-map",
+  resolve: {
+    // Add '.ts' and '.tsx' as resolvable extensions.
+    extensions: ["", ".webpack.js", ".web.js", ".ts", ".tsx", ".js"],
+  },
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "./build"),
+  },
+};
 
-module.exports = config
+module.exports = config;
