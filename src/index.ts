@@ -3,21 +3,16 @@ async function loadSemesterData() {
     console.log("Working on semester file");
     // Get the page path
     const websiteURL = new URL(location.href);
-    const semester: string = websiteURL.pathname
-      .split("/") // splitting url segments
-      .at(-1) // getting last child
-      .split(".")[0] // split into . to remove extension and get first element
-      .split("-")[0]; // split the section segment to get specific word by splitting using -
+    const urlPath = websiteURL.pathname.split("/").filter(Boolean).pop(); // splitting url segments
 
-    const filePath = `./datas/${semester}.js`;
+    if (urlPath == undefined) throw new Error("unable to process URL");
 
-    document.body.innerHTML = filePath;
+    const firstSegment = urlPath.split(".").at(0); // split into . to remove extension and get first element
+    const semester = firstSegment?.split("-").at(0); // split the section segment to get specific word by splitting using -
 
     const semesterFile = await import(`./datas/${semester}.js`).then(
       (data) => data.default
     );
-
-    console.log(semesterFile);
   } catch (error: unknown) {
     if (error instanceof Error) {
       console.log(`Error during exectuion: ${error.message}`);
