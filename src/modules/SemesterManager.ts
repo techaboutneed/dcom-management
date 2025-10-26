@@ -1,4 +1,10 @@
+import z from "zod";
+import { SemesterSchema, type TSemester } from "../types/semester.type";
+import { SemesterFileException } from "../expections/SemesterFileException";
+
 export class SemesterManager {
+  #semesterData: TSemester;
+
   #getSemester(): string {
     try {
       const websiteURL = new URL(location.href);
@@ -32,11 +38,26 @@ export class SemesterManager {
         (data) => data.default
       );
 
-      console.log(semesterFile);
+      this.#semesterData = this.verifySemesterFile(semesterFile);
     } catch (error: unknown) {
-      if (error instanceof Error) {
+      if (error instanceof SemesterFileException) {
+        console.error(`Error: ${error.message}`);
+      } else if (error instanceof z.ZodError) {
+        console.error(`Parsing error: `, error.issues);
+      } else if (error instanceof Error) {
         console.log(`Error during exectuion: ${error.message}`);
+      } else {
+        console.error("Unable to detect issue");
       }
     }
+  }
+
+  verifySemesterFile(semesterFile: unknown): TSemester {
+    if (semesterFile == undefined || typeof semesterFile != "object")
+      throw new SemesterFileException();
+
+    const parseResult = SemesterSchema.parse(semesterFile);
+
+    return parseResult;
   }
 }
