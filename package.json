@@ -24,6 +24,7 @@
 	},
 	"dependencies": {
 		"source-map-loader": "^5.0.0",
-		"ts-loader": "^9.5.4"
+		"ts-loader": "^9.5.4",
+		"zod": "^4.1.12"
 	}
 }

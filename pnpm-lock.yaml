@@ -14,6 +14,9 @@ importers:
       ts-loader:
         specifier: ^9.5.4
         version: 9.5.4(typescript@5.9.3)(webpack@5.102.1)
+      zod:
+        specifier: ^4.1.12
+        version: 4.1.12
     devDependencies:
       webpack:
         specifier: ^5.70.0
@@ -587,6 +590,9 @@ packages:
   wildcard@2.0.1:
     resolution: {integrity: sha512-CC1bOL87PIWSBhDcTrdeLo6eGT7mCFtrg0uIJtqJUFyK+eJnzl8A1niH56uu7KMa5XFrtiV+AQuHO3n7DsHnLQ==}
 
+  zod@4.1.12:
+    resolution: {integrity: sha512-JInaHOamG8pt5+Ey8kGmdcAcg3OL9reK8ltczgHTAwNhMys/6ThXHityHxVV2p3fkw/c+MAvBHFVYHFZDmjMCQ==}
+
 snapshots:
 
   '@discoveryjs/json-ext@0.5.7': {}
@@ -1124,3 +1130,5 @@ snapshots:
       isexe: 2.0.0
 
   wildcard@2.0.1: {}
+
+  zod@4.1.12: {}
